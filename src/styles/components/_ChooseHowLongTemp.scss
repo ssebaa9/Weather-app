@@ -1,0 +1,30 @@
+.chooseHowLongTemp {
+  text-align: center;
+}
+
+.chooseHowLongTemp button {
+  margin: 0 5px;
+  border: none;
+  background-color: $dark-green;
+  padding: 5px 10px;
+  color: $light;
+  border-radius: 7px;
+  border: 2px solid $light;
+}
+
+.chooseHowLongTemp button.is-active {
+  background-color: $dark;
+}
+
+@media (min-width: 411px) and (orientation: portrait) {
+  .chooseHowLongTemp button {
+    font-size: $m-size;
+  }
+}
+
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .chooseHowLongTemp button {
+    font-size: $l-size;
+  }
+}

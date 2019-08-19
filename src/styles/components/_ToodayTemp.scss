@@ -1,0 +1,78 @@
+.toodayTemp {
+  margin-top: $s-size;
+}
+
+.toodayTemp_temperature {
+  padding: $s-size;
+  position: relative;
+}
+
+.toodayTemp_temperature img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.toodayTemp_temperature div {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+}
+
+.toodayTemp_temperature div h2 {
+  font-size: $xl-size;
+}
+
+.toodayTemp_temperature p {
+  font-size: $s-size;
+}
+
+.toodayTemp_parameters {
+  padding: $s-size;
+}
+
+.toodayTemp_parameters li {
+  list-style: none;
+  padding: 0.5rem;
+
+}
+
+.toodayTemp_parameters span {
+  padding-left: $s-size;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .toodayTemp {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .toodayTemp_temperature img {
+    width: 17rem;
+    height: 17rem;
+  }
+
+
+  .toodayTemp_temperature p {
+    font-size: $l-size;
+  }
+
+  .toodayTemp_temperature div h2 {
+    font-size: 7rem;
+  }
+}
+
+
+@media (orientation: landscape) {
+  .toodayTemp {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .toodayTemp_temperature img {
+    width: 12rem;
+    height: 12rem;
+  }
+}

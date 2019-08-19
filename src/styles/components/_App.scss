@@ -1,0 +1,30 @@
+.App {
+  padding-top: $s-size;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cityName {
+  margin: $s-size;
+  padding: $s-size;
+  border-radius: 0 15px 15px 0;
+  border-left: 3px solid $dark;
+  background-color: $light;
+}
+
+.cityName h2 {
+  color: $dark-green;
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .App {
+    padding-top: $l-size;
+  }
+}
+
+@media (orientation: landscape) {
+  .App {
+    padding: $xl-size;
+    width: 50%;
+  }
+}
