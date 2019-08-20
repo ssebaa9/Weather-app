@@ -43,27 +43,33 @@
   font-weight: bold;
 }
 
+@media (min-width: 500px) {
+  .toodayTemp {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 @media (min-width: 768px) and (orientation: portrait) {
   .toodayTemp {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
   }
 
   .toodayTemp_temperature img {
-    width: 17rem;
-    height: 17rem;
+    width: 12rem;
+    height: 12rem;
   }
 
 
   .toodayTemp_temperature p {
-    font-size: $l-size;
+    font-size: $m-size;
   }
 
   .toodayTemp_temperature div h2 {
     font-size: 7rem;
   }
 }
-
 
 @media (orientation: landscape) {
   .toodayTemp {

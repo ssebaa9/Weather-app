@@ -22,7 +22,21 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (min-width: 768px) and (orientation: landscape) {
+  .App {
+    padding-top: $l-size;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .App {
+    padding: $xl-size;
+    width: 65%;
+  }
+}
+
+@media (min-width: 1300px) and (orientation: landscape) {
   .App {
     padding: $xl-size;
     width: 50%;
