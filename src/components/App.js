@@ -66,7 +66,7 @@ class App extends Component {
 
   render() {
     const { data, chooseTemp, cityNotFound } = this.state
-    const dateNow = new Date().toLocaleString().substring(0, 17)
+    const dateNow = new Date().toLocaleString().substring(0, 16)
     return (
       <div className="App">
         <Header />
